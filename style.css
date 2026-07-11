@@ -44,3 +44,13 @@ ul{
 img{
     margin:10px;
 }
+
+#Certifications{
+    a:visited{
+            background-color: red;
+        }
+        a:hover{
+            background-color: brown;
+            
+        }
+    }
