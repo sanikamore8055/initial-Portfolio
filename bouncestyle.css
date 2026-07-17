@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background-color:lightgray;
+}
+
+.ball{
+    width:80px;
+    height:80px;
+    background-color:red;
+    border-radius:50%;
+    border-color: black;
+
+    animation-name:bounce;
+    animation-duration:3s;
+    animation-iteration-count:infinite;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes bounce{
+
+    0%{
+        transform:translateY(0);
+    }
+
+    50%{
+        transform:translateY(-200px);
+    }
+
+    100%{
+        transform:translateY(0);
+    }
+
+}
